@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\const\\source\\repos\\PieShopProject\\PieShopProject\\PieShopProject.csproj",
+      "projectUniqueName": "I:\\OneDrive\\Документы\\GitHub\\PieShopProject\\PieShopProject\\PieShopProject.csproj",
       "projectName": "PieShopProject",
-      "projectPath": "C:\\Users\\const\\source\\repos\\PieShopProject\\PieShopProject\\PieShopProject.csproj",
+      "projectPath": "I:\\OneDrive\\Документы\\GitHub\\PieShopProject\\PieShopProject\\PieShopProject.csproj",
       "packagesPath": "C:\\Users\\const\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\const\\source\\repos\\PieShopProject\\PieShopProject\\obj\\",
+      "outputPath": "I:\\OneDrive\\Документы\\GitHub\\PieShopProject\\PieShopProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
