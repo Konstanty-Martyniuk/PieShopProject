@@ -29,7 +29,10 @@ namespace PieShopProject
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IPieRepository, PieRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
             services.AddControllersWithViews();
+            services.AddHttpContextAccessor();
+            services.AddSession();
             services.AddRazorPages();
         }
 
@@ -49,9 +52,9 @@ namespace PieShopProject
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

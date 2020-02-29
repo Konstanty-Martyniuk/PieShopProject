@@ -42,7 +42,6 @@ I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\bin\Debug\ne
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\bin\Debug\netcoreapp3.1\PieShopProject.pdb
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\bin\Debug\netcoreapp3.1\PieShopProject.Views.dll
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\bin\Debug\netcoreapp3.1\PieShopProject.Views.pdb
-I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\PieShopProject.csprojAssemblyReference.cache
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\staticwebassets\PieShopProject.StaticWebAssets.Manifest.cache
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\staticwebassets\PieShopProject.StaticWebAssets.xml
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\PieShopProject.RazorAssemblyInfo.cache
@@ -95,3 +94,7 @@ I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\bin\Debug\ne
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\PieShopProject.MvcApplicationPartsAssemblyInfo.cache
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Pie\Details.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PieCard.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
