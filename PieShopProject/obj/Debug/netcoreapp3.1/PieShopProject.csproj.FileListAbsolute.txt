@@ -98,3 +98,6 @@ I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\ne
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
 I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+I:\OneDrive\Документы\GitHub\PieShopProject\PieShopProject\obj\Debug\netcoreapp3.1\PieShopProject.csprojAssemblyReference.cache
