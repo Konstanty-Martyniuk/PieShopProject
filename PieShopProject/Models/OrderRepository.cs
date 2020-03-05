@@ -7,40 +7,34 @@ namespace PieShopProject.Models
 {
     public class OrderRepository : IOrderRepository
     {
-        private readonly AppDbContext _appDbContext;
-        private readonly ShoppingCart _shoppingCart;
+        private readonly AppDbContext appDbContext;
+        private readonly ShoppingCart shoppingCart;
 
         public OrderRepository(AppDbContext appDbContext, ShoppingCart shoppingCart)
         {
-            _appDbContext = appDbContext;
-            _shoppingCart = shoppingCart;
+            this.appDbContext = appDbContext;
+            this.shoppingCart = shoppingCart;
         }
-
         public void CreateOrder(Order order)
         {
             order.OrderPlaced = DateTime.Now;
+            appDbContext.Orders.Add(order);
 
-            var shoppingCartItems = _shoppingCart.ShoppingCartItems;
-            order.OrderTotal = _shoppingCart.GetShoppingCartTotal();
-
-            order.OrderDetails = new List<OrderDetail>();
-            //adding the order with its details
-
+            var shoppingCartItems = shoppingCart.ShoppingCartItems;
             foreach (var shoppingCartItem in shoppingCartItems)
             {
-                var orderDetail = new OrderDetail
+                var orderDetail = new OrderDetail()
                 {
                     Amount = shoppingCartItem.Amount,
                     PieId = shoppingCartItem.Pie.PieId,
+                    OrderId = order.OrderId,
                     Price = shoppingCartItem.Pie.Price
                 };
-
                 order.OrderDetails.Add(orderDetail);
             }
+            appDbContext.Orders.Add(order);
 
-            _appDbContext.Orders.Add(order);
-
-            _appDbContext.SaveChanges();
+            appDbContext.SaveChanges();
         }
     }
 }
